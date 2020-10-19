@@ -2,7 +2,7 @@ $(document).ready(function() {
     //$('#username').focus();
 
     $('#submit').click(function() {
-
+        //submit functions
         event.preventDefault(); // prevent PageReLoad
 
        var ValidEmail = $('#username').val() === 'invitado'; // User validate
