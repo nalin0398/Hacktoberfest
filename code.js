@@ -13,7 +13,7 @@ var ValidPassword = $('#password').val() === 'hgm2015'; // Password validate
             window.location = "http://arkev.com"; // go to home.html
         }
         else {
-            $('.error').css('display', 'block'); // show error msg
+            $('.error').css('display', 'block'); 
         }
     });
 });
